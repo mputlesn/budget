@@ -1,0 +1,33 @@
+table {
+    width: 100%;
+}
+
+
+header{
+    background-image: url("../assets/images/budget.jpg");
+    padding: 15px;
+}
+
+h1{
+    text-align: center; 
+  }
+
+table, th, td {
+    
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+
+table#t01 tr:nth-child(even) {
+    background-color: orange;
+}
+table#t01 tr:nth-child(odd) {
+   background-color: rgba(141, 134, 134, 0.13);
+}
+table#t01 th {
+    background-color: lightgrey;
+    color: white;
+}
